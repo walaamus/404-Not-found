@@ -1,0 +1,77 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr ));
+    grid-gap: 100px;
+    row-gap: 1rem;
+
+
+}
+
+
+
+.container h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.container p {
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.container img {
+   
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.button {
+    
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.button:hover  {
+    background-color: rebeccapurple;
+    color : black ;
+}
+
+
+footer {
+
+    font-family:  Tahoma;
+    color: black;
+
+}
+
+ footer a {
+
+  text-decoration: none;
+  color: #333333;
+
+ }
+
+ footer  a:hover {
+    color:rebeccapurple;
+    font-size: larger;    
+
+
+ }
